@@ -28,5 +28,6 @@ public class minimo_monedas {
         int monedas1 = centavos;
         System.out.println("Monedas 1: " + centavos);
 
+        System.out.println("Total monedas : " + (monedas25+monedas10+monedas5+monedas1));
     }
 }

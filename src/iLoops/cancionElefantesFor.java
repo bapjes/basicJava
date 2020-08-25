@@ -10,10 +10,13 @@ public class cancionElefantesFor {
 
         System.out.println("Cuántos elefantes ? ");
         numeroElefantes = Input.get_int();
-        for (i=1; i<=numeroElefantes ; i++)
+        System.out.println("un elefante se columpiaba sobre la tela de una araña,\n" +
+                "como veia que resistia, fue a llamar a otro elefante");
+
+        for (i=2; i<=numeroElefantes ; i++)
         {
-            System.out.println(i + " elefante se columpiaba sobre la tela de una araña,\n" +
-                    "como veia que resistia, fue a llamar a otro elefante");
+            System.out.println(i + " elefantes se columpiaban sobre la tela de una araña,\n" +
+                    "como veian que resistian, fueron a llamar a otro elefante");
         }
 
     }
